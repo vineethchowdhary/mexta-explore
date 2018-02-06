@@ -4,6 +4,8 @@ IMAGE_INSTALL = "packagegroup-core-boot ${CORE_IMAGE_EXTRA_INSTALL}"
 
 CORE_IMAGE_EXTRA_INSTALL += "packagegroup-self-hosted-minimal"
 
+IMAGE_FEATURES += "ssh-server-openssh package-management"
+
 
 IMAGE_LINGUAS = " "
 
