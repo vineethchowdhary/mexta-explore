@@ -176,5 +176,6 @@ RDEPENDS_packagegroup-self-hosted-minimal-extended = "\
     zip \
     zlib \
     xz \
+    kernel-dev \
+    kernel-devsrc \
     "
-
